@@ -4,7 +4,10 @@
   "description": "What did I do to make this template ?",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "url": "git+https://github.com/Ali-Al-Khuwaja/Webpack-Template.git"
