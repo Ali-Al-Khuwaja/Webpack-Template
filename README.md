@@ -7,3 +7,4 @@ What did I do to make this template ?
 3. Created a src folder
 4. Created a webpack config
 5. then `npx webpack` , it will make a dist folder
+6. add new npm script in `package.json`
